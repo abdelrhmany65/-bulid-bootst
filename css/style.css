@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    transition: all 0.5s linear;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.img{
+    width: 100%;
+    
+}
+section{
+    padding: 6rem 9%;
+}
+.heading h1{
+    font-size: 55px;
+}
+.heading p{
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(247, 210, 0);
+}
+.navbar .navbar-brand span{
+    color: rgb(0, 0, 0);
+}
+.navbar .navbar-nav li a{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a.active{
+    color: rgb(247, 210, 0);
+}
+#Home .carousel-inner .slider-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.6)),
+        url(../images/home-1.jpg) no-repeat center;
+    background-size: cover;
+}
+#Home .carousel-inner .slider-2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.6)),
+        url(../images/home-2.jpg) no-repeat center;
+    background-size: cover;
+}
+#Home .carousel-inner .slider-3{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.6)),
+        url(../images/home-3.jpg) no-repeat center;
+    background-size: cover;
+}
+#Home h1{
+    font-size: 63px;
+}
+.about .images{
+    width: 50%;
+}
+.about .images img{
+    width: 100%;
+}
+#service .row .content{
+    box-shadow: 0 5px 5px rgba(0,0,0,.6);
+    
+}
+.portfolio .row .images{
+    width: 100%;
+}
+.portfolio .row .images img{
+    width: 100%;
+}
+#team .images img{
+    border-radius: 50%;
+}
+#team .box .content{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    background: #fff;
+}
+#team .box .content:hover{
+    background: #222;
+}
+#team .box .content:hover .tem-content{
+    color: #fff;
+}
+#team .box .content:hover .tem-content .shire i{
+    color: gold;
+}
+footer a,h3,p{
+    text-decoration: none;
+    color: #fff;
+}
+footer h3,i{
+    color: gold;
+}
+footer a:hover{
+    color: gold;
+}
